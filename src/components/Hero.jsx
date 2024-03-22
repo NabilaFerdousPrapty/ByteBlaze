@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import Bookmarks from './../Pages/Bookmarks';
+
 
 const Hero = () => {
   return (
     <div>
-      <div className="hero  ">
+      <div className="hero -mt-16 ">
         <div className="hero-content text-center">
           <div className="max-w-lg">
             <h1 className="text-4xl font-bold">
-              Welcome to <span className="text-primary">ByteBlaze</span>{" "}
+              Welcome to <span className="bg-gradient-to-r from-primary via-blue-500 to-secondary text-transparent  bg-300% bg-clip-text animate-gradient">ByteBlaze</span>{" "}
             </h1>
             <p className="py-6">
               ByteBlaze is a bridge between the complex world of technology and
